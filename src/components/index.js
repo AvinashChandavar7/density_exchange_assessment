@@ -5,6 +5,8 @@ export { default as Soundfamiliar } from './Soundfamiliar/Soundfamiliar.jsx'
 export { default as MeetAheadApp } from './MeetAheadApp/MeetAheadApp.jsx'
 export { default as SelfImprovement } from './SelfImprovement/SelfImprovement.jsx'
 export { default as Anonymously } from './Anonymously/Anonymously.jsx'
+export { default as StartTest } from './StartTest/StartTest.jsx'
+export { default as WorkWithUs } from './WorkWithUs/WorkWithUs.jsx'
 
 
 

@@ -166,3 +166,56 @@ export const circlesData = [
     backgroundColor: '#58c896',
   },
 ];
+
+//WorkWithUs.jsx
+export const workWithUsCardData = [
+  {
+    id: 1,
+    title: 'Power through, even when the going gets tough',
+    bodyText:
+      'We help you spot and work around whatever stands in the way. be it bad habits, fears, etc.',
+    className: 'workWith__cards',
+    bgColor: '#fff',
+  },
+  {
+    id: 2,
+    title: 'Learn more about who you are and where you want to go',
+    bodyText:
+      'We ask the right questions to help you better understand why you do things the way you do.',
+    className: 'workWith__cards',
+    bgColor: '#fff',
+  },
+  {
+    id: 3,
+    title: 'Play and grow together with others on the same journey',
+    bodyText:
+      'Ahead feels like a game, not like a chore. See yourself grow every day towards achieving your goals!',
+    className: 'workWith__cards',
+    bgColor: '#fff',
+  },
+  {
+    id: 4,
+    title: 'Master how to make it happen in real life',
+    bodyText:
+      'We towards skills with sleek tools such as quizzes, and flashcards',
+    className: 'workWith__cards',
+    bgColor: '#fff',
+  },
+  {
+    id: 5,
+    title:
+      'Learn about practical skills that you can actually use in real life',
+    bodyText:
+      'We teach you smart psychological techniques and habit-forming strategies that are easy to apply.',
+    className: 'workWith__cards',
+    bgColor: '#fff',
+  },
+  {
+    id: 6,
+    title: "Get support that's made for your needs",
+    bodyText:
+      'We build your personal roadmap of lessons and actions towards your goals.',
+    className: 'workWith__cards',
+    bgColor: '#fff',
+  },
+];

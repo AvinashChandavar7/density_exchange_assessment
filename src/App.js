@@ -11,6 +11,7 @@ const LazyMeetAheadApp = lazy(() => import('./components/MeetAheadApp/MeetAheadA
 const LazySelfImprovement = lazy(() => import('./components/SelfImprovement/SelfImprovement.jsx'));
 const LazyAnonymously = lazy(() => import('./components/Anonymously/Anonymously.jsx'));
 const LazyStartTest = lazy(() => import('./components/StartTest/StartTest.jsx'));
+const LazyWorkWithUs = lazy(() => import('./components/WorkWithUs/WorkWithUs.jsx'));
 
 
 
@@ -27,6 +28,9 @@ const App = () => {
         <LazyAnonymously />
         <LazyEqBeatsIq title="Be the best you with EQ" paragraphs={paragraph2} />
         <LazyStartTest />
+        <LazyWorkWithUs />
+
+
       </Suspense>
     </>
   );
