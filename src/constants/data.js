@@ -1,4 +1,5 @@
 import circle1 from '../assets/circle1.svg';
+import sun from '../assets/sun.svg'
 
 
 //  Header.jsx
@@ -109,5 +110,48 @@ export const timelineData = [
     description:
       'We make sure your energy from all the content you consume does not fizzle out.',
     img: circle1,
+  },
+];
+
+//Anonymously.jsx
+export const stepsData = [
+  {
+    id: 1,
+    imageSrc: sun,
+    text: 'Answer questions on your social skills',
+  },
+  {
+    id: 2,
+    imageSrc: sun,
+    text: 'Let others anonymously answer the same questions about you',
+  },
+  {
+    id: 3,
+    imageSrc: sun,
+    text: 'Find out where you and others see things the same way - and where not!',
+  },
+];
+
+//Anonymously.jsx
+export const circlesData = [
+  {
+    id: 1,
+    label: 'you',
+    backgroundColor: '#6341ef',
+  },
+  {
+    id: 2,
+    label: 'Anonymonos 1',
+    backgroundColor: '#40c2fc',
+  },
+  {
+    id: 3,
+    label: 'Anonymonos 2',
+    backgroundColor: '#fdb338',
+  },
+  {
+    id: 4,
+    label: 'Anonymonos 3',
+    backgroundColor: '#58c896',
   },
 ];
