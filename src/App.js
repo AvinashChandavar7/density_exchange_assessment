@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react';
-import { paragraph1 } from './constants/data';
+import { paragraph1, paragraph2 } from './constants/data';
 
 
 // Use lazy loading for components
@@ -24,6 +24,8 @@ const App = () => {
         <LazyMeetAheadApp />
         <LazySelfImprovement />
         <LazyAnonymously />
+        <LazyEqBeatsIq title="Be the best you with EQ" paragraphs={paragraph2} />
+
       </Suspense>
     </>
   );

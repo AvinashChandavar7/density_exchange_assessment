@@ -22,6 +22,17 @@ export const paragraph1 = [
   },
 ];
 
+//EqBeatsIq.jsx
+export const paragraph2 = [
+  {
+    id: 1,
+    text: 'Not having your own emotions under control might be holding you back.',
+  },
+  {
+    id: 2,
+    text: 'Additionally, not understanding those of others stops you from being parent, friend you can be.',
+  },
+];
 
 // Soundfamiliar.jsx
 export const cardData = [
