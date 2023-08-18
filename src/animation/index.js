@@ -82,29 +82,4 @@ export const mobileLanding = () => {
     });
 };
 
-//Header.jsx
-export const animateLogoAndMenu = () => {
-  const tl = gsap.timeline();
 
-  // tl.from('.nav__logo', {
-  //   duration: 2,
-  //   opacity: 0,
-  //   y: -20,
-  //   ease: 'power3.easeIn',
-  // }).to('.nav__menu li', {
-  //   duration: 0.5,
-  //   opacity: 1,
-  //   y: 0,
-  //   stagger: 0.2,
-  //   ease: 'power3.easeIn',
-  // });
-};
-
-export const animateHamburgerMenu = (toggleMenu) => {
-  gsap.to('.nav__menu-overlay', {
-    duration: 0.3,
-    opacity: toggleMenu ? 0 : 1,
-    display: toggleMenu ? 'none' : 'block',
-    ease: 'power3.easeOut',
-  });
-};
