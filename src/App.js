@@ -12,6 +12,8 @@ const LazySelfImprovement = lazy(() => import('./components/SelfImprovement/Self
 const LazyAnonymously = lazy(() => import('./components/Anonymously/Anonymously.jsx'));
 const LazyStartTest = lazy(() => import('./components/StartTest/StartTest.jsx'));
 const LazyWorkWithUs = lazy(() => import('./components/WorkWithUs/WorkWithUs.jsx'));
+const LazyOpenVacancies = lazy(() => import('./components/OpenVacancies/OpenVacancies.jsx'));
+const LazyFooter = lazy(() => import('./components/Footer/Footer.jsx'));
 
 
 
@@ -29,8 +31,9 @@ const App = () => {
         <LazyEqBeatsIq title="Be the best you with EQ" paragraphs={paragraph2} />
         <LazyStartTest />
         <LazyWorkWithUs />
-
-
+        <LazyOpenVacancies />
+        <hr style={{ margin: "1rem 0", color: "gray" }} />
+        <LazyFooter />
       </Suspense>
     </>
   );

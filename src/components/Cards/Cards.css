@@ -84,3 +84,48 @@
     margin: 1rem 0;
   }
 }
+
+/* openVacancies__cards */
+.openVacancies__cards {
+  width: 350px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: baseline;
+
+  border-radius: 10px;
+  padding: 2.5rem;
+
+  line-height: 2rem;
+  transition: height 0.5s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.openVacancies__cards:hover {
+  background-color: #f0f0f0;
+  height: 320px;
+}
+
+.openVacancies__btn {
+  opacity: 0;
+  margin-top: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.openVacancies__cards:hover .openVacancies__btn {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .openVacancies__cards {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    border-radius: 10px;
+    padding: 2.5rem;
+  }
+}

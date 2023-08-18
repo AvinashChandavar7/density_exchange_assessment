@@ -7,6 +7,7 @@ export { default as SelfImprovement } from './SelfImprovement/SelfImprovement.js
 export { default as Anonymously } from './Anonymously/Anonymously.jsx'
 export { default as StartTest } from './StartTest/StartTest.jsx'
 export { default as WorkWithUs } from './WorkWithUs/WorkWithUs.jsx'
+export { default as OpenVacancies } from './OpenVacancies/OpenVacancies.jsx'
 
 
 

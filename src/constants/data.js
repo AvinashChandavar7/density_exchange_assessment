@@ -219,3 +219,35 @@ export const workWithUsCardData = [
     bgColor: '#fff',
   },
 ];
+
+//OpenVacancies.jsx
+export const vacancies = [
+  {
+    id: 1,
+    role: "Senior Full- Stack Engineer",
+    shift: "• Full - time position",
+    location: "• Berlin or remote",
+    packages: "• 5-85k, 0.5-1.50% equity share options",
+    bgColor: '#FEFBEC',
+    btn: "See details",
+  },
+  {
+    id: 2,
+    role: "  Senior Designer",
+    shift: "• Full - time position",
+    location: "• Berlin or remote",
+    packages: " • €40 - 55k, 0.25 - 0.50 % equity share options",
+    bgColor: '#FEFBEC',
+    btn: "See details",
+  },
+  {
+    id: 3,
+    role: "Superstar Intern",
+    shift: "• Full - time position",
+    location: "• Berlin or remote",
+    packages: "€20-24k, 0.5-1.50% equity share options",
+    bgColor: '#FEFBEC',
+    btn: "See details",
+  }
+];
+

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Cards.css';
+import Buttons from '../Buttons/Buttons';
 
 const Cards = ({
   className,
@@ -12,6 +13,7 @@ const Cards = ({
   shift,
   location,
   packages,
+  btn,
 }) => {
   const cardStyle = {
     backgroundColor: bgColor,
@@ -27,6 +29,8 @@ const Cards = ({
       {shift && <h4>{shift}</h4>}
       {location && <h4>{location}</h4>}
       {packages && <h4>{packages}</h4>}
+
+      {btn && <Buttons title={btn} className="openVacancies__btn" />}
     </figure>
   );
 };
