@@ -8,9 +8,7 @@ export { default as Anonymously } from './Anonymously/Anonymously.jsx'
 export { default as StartTest } from './StartTest/StartTest.jsx'
 export { default as WorkWithUs } from './WorkWithUs/WorkWithUs.jsx'
 export { default as OpenVacancies } from './OpenVacancies/OpenVacancies.jsx'
-
-
-
+export { default as Footer } from './Footer/Footer.jsx'
 
 export { default as Buttons } from './Buttons/Buttons.jsx'
 export { default as Cards } from './Cards/Cards.jsx'

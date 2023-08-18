@@ -1,5 +1,7 @@
-import React, { lazy, Suspense } from 'react';
+import React, { lazy, Suspense, useEffect, } from 'react';
 import { paragraph1, paragraph2 } from './constants/data';
+import { PreLoader, Loading } from './utils';
+import { initializeLocomotiveScroll } from './animation/initializeLocomotiveScroll';
 
 
 // Use lazy loading for components
@@ -18,9 +20,16 @@ const LazyFooter = lazy(() => import('./components/Footer/Footer.jsx'));
 
 
 const App = () => {
+
+  useEffect(() => {
+    initializeLocomotiveScroll();
+  }, []);
+
+
   return (
     <>
-      <Suspense fallback={<div>Loading...</div>}>
+      <PreLoader />
+      <Suspense fallback={< Loading />}>
         <LazyHeader />
         <LazyHero />
         <LazyEqBeatsIq title="EQ beats IQ" paragraphs={paragraph1} />
