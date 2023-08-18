@@ -10,6 +10,7 @@ const LazySoundfamiliar = lazy(() => import('./components/Soundfamiliar/Soundfam
 const LazyMeetAheadApp = lazy(() => import('./components/MeetAheadApp/MeetAheadApp.jsx'));
 const LazySelfImprovement = lazy(() => import('./components/SelfImprovement/SelfImprovement.jsx'));
 const LazyAnonymously = lazy(() => import('./components/Anonymously/Anonymously.jsx'));
+const LazyStartTest = lazy(() => import('./components/StartTest/StartTest.jsx'));
 
 
 
@@ -25,7 +26,7 @@ const App = () => {
         <LazySelfImprovement />
         <LazyAnonymously />
         <LazyEqBeatsIq title="Be the best you with EQ" paragraphs={paragraph2} />
-
+        <LazyStartTest />
       </Suspense>
     </>
   );
