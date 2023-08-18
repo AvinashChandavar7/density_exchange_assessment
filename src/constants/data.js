@@ -1,3 +1,4 @@
+import circle1 from '../assets/circle1.svg';
 
 
 //  Header.jsx
@@ -69,5 +70,44 @@ export const cardData = [
       'You get nervous, frazzled, and frustrated, instead of staying optimistic and solution-oriented.',
     className: 'soundFamiliar__cards',
     bgColor: '#D8F2FF',
+  },
+];
+
+//SelfImprovement.jsx
+export const timelineData = [
+  {
+    id: 1,
+    title: "It's not as easy as 1-2-3.",
+    description:
+      'The journey of change may be long, but our sessions are quick. We get to the point and tell you what you want to know (and nothing else).',
+    img: circle1,
+  },
+  {
+    id: 2,
+    title: 'Old habits are hard to break.',
+    description:
+      'And bad behaviors die hard. Fortunately, we give you great, science-backed techniques to use.',
+    img: circle1,
+  },
+  {
+    id: 3,
+    title: "You and your motivation don't have a long-term relationship.",
+    description:
+      'Luckily, we can proactively prepare you for the marathon, not just the race. Effective, memorable exerciseswill help you stick to your goals.',
+    img: circle1,
+  },
+  {
+    id: 4,
+    title: "Books just don't offer practical solutions.",
+    description:
+      "Remember when you learned to ride a bike just by reading? Yeah, we don't either.We help you take concrete small steps towards your goals. Learning just a bit, then immediately springing into action.",
+    img: circle1,
+  },
+  {
+    id: 5,
+    title: 'Inspiration is great, but then what.',
+    description:
+      'We make sure your energy from all the content you consume does not fizzle out.',
+    img: circle1,
   },
 ];

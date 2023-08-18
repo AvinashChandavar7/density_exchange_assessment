@@ -1,2 +1,6 @@
 export { default as Header } from './Header/Header.jsx'
 export { default as Hero } from './Hero/Hero.jsx'
+export { default as EqBeatsIq } from './EqBeatsIq/EqBeatsIq.jsx'
+export { default as Soundfamiliar } from './Soundfamiliar/Soundfamiliar.jsx'
+export { default as MeetAheadApp } from './MeetAheadApp/MeetAheadApp.jsx'
+export { default as SelfImprovement } from './SelfImprovement/SelfImprovement.jsx'

@@ -1,0 +1,140 @@
+.selfImprovement__container {
+  width: 100%;
+  height: 100vh;
+
+  margin-bottom: 5rem;
+}
+
+.selfImprovement__small {
+  font-size: 20px;
+}
+
+.selfImprovement__title {
+  font-size: 51px;
+}
+
+.selfImprovement__box {
+  display: flex;
+  flex-direction: row;
+}
+
+.selfImprovement__ghost {
+  z-index: 10;
+
+  transform: rotate(15deg);
+}
+
+.selfImprovement__timeline {
+  position: relative;
+
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  animation: moveline 6s linear forwards;
+}
+
+.selfImprovement__content {
+  padding: 10px 50px;
+  position: relative;
+  width: 90%;
+
+  animation: movedown 1s linear forwards;
+}
+
+.selfImprovement__text {
+  padding: 20px 30px;
+  position: relative;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.selfImprovement__content img {
+  position: absolute;
+  left: 41px;
+  top: 35px;
+  z-index: 10;
+}
+
+.selfImprovement__timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 10%;
+  margin: 1rem;
+  background: #ccc1fb;
+  top: 0%;
+  left: 9.5%;
+  margin-left: -3px;
+  z-index: 2;
+
+  animation: moveline 6s linear forwards;
+}
+
+@keyframes moveline {
+  0% {
+    height: 0%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes movedown {
+  0% {
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-0px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .selfImprovement__container {
+    height: 100%;
+  }
+
+  .selfImprovement__small {
+    font-size: 16px;
+    text-align: center;
+  }
+  .selfImprovement__box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .selfImprovement__title {
+    font-size: 25px;
+    text-align: center;
+  }
+  .selfImprovement__ghost {
+    width: 100px;
+    margin-left: 6rem;
+    transform: rotate(0deg);
+  }
+
+  .selfImprovement__timeline::after {
+    top: 0%;
+    left: 5%;
+    margin-left: 0px;
+  }
+
+  .selfImprovement__content img {
+    left: -12px;
+  }
+
+  .selfImprovement__content {
+    padding: 0;
+  }
+
+  .selfImprovement__text-h1 {
+    font-size: 25px;
+  }
+  .selfImprovement__text-p {
+    font-size: 16px;
+  }
+}
